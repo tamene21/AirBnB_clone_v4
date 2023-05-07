@@ -7,7 +7,7 @@ import uuid
 app = Flask('web_dynamic')
 app.url_map.strict_slashes = False
 
-
+# route change
 @app.route('/2-hbnb')
 def display_hbnb():
     """Generate page with popdown menu of states/cities"""
