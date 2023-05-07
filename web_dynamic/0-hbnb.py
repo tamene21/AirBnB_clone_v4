@@ -18,7 +18,7 @@ def display_hbnb():
                            states=states,
                            amenities=amenities,
                            places=places,
-                           cache_id=cache_id)
+                           cache_id=uuid.uuid4())
 
 
 @app.teardown_appcontext
